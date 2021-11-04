@@ -2,7 +2,7 @@ pipeline {
     agent any
     stages {
         
-        stage('Hello') {
+        stage('Maven package') {
             steps {
                 sh './mvnw package'
             }
