@@ -11,7 +11,7 @@ pipeline {
         stage('Docker build') {
             steps {
                 script{
-                    dockerImage = docker.build petclinic
+                    def dockerImage = docker.build("petclinic:${env.BUILD_ID}"
                 }
             }
         }
