@@ -1,4 +1,4 @@
-FROM openjdk:16-buster-jdk as base
+FROM openjdk:16-jdk-buster as base
 
 WORKDIR /app
 
