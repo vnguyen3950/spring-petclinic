@@ -1,4 +1,4 @@
-FROM openjdk:16-alpine3.13 as base
+FROM openjdk:16-buster-jdk as base
 
 WORKDIR /app
 
